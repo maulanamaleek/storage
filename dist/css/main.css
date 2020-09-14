@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background: #0c122c;
+}
+
+.container {
+  width: 55vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.left {
+  background: #1d2c67;
+  width: 300px;
+  height: 200px;
+  padding: 40px 30px;
+  border: 0;
+  margin-right: 70px;
+  border-radius: 10px 90px 10px 10px;
+}
+
+.left .links {
+  margin-top: 35px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left .links .links-item {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background: #0c122c;
+  border-radius: 7px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  position: relative;
+}
+
+.left .links .links-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.left .links .links-item img:hover {
+  cursor: pointer;
+}
+
+.left .links .links-item:nth-of-type(1) > img {
+  height: 19px;
+}
+
+.left .links .links-item:nth-of-type(2) > img {
+  height: 16px;
+}
+
+.right {
+  width: 650px;
+  height: 150px;
+  background-color: #1d2c67;
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.right .arrow {
+  position: fixed;
+  right: 5%;
+  top: 28%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+}
+
+.right .pop {
+  color: #0c122c;
+  position: fixed;
+  top: 0%;
+  right: 5%;
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.right .pop .big {
+  font-size: 2rem;
+  color: #0c122c;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.right p {
+  display: inline;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.right #zero {
+  margin-right: 400px;
+}
+
+.right .progress {
+  background-color: #0c122c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.right .progress .progress-content {
+  margin: 0;
+  width: 450px;
+  border-radius: 20px;
+  height: 25px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  text-align: end;
+  border: 3px #0c122c solid;
+}
+
+.right .progress .progress-content #dot {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+  left: 425px;
+  top: 52.4%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=main.css.map */

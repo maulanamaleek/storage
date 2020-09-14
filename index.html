@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <title>Storage</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="./src/logo.svg" alt="Fylo" />
+        <div class="links">
+          <div class="links-item">
+            <img src="./src/icon-document.svg" alt="new" />
+          </div>
+          <div class="links-item">
+            <img src="./src/icon-folder.svg" alt="folder" />
+          </div>
+          <div class="links-item">
+            <img src="./src/icon-upload.svg" alt="upload" />
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <p>You've used <b>815 GB</b> of your storage</p>
+        <div class="arrow"></div>
+        <div class="progress">
+          <div class="progress-content">
+            <div id="dot"></div>
+          </div>
+        </div>
+        <p id="zero">0 GB</p>
+        <p id="thousand">10000 GB</p>
+        <div class="pop"><span class="big">185 GB</span> LEFT</div>
+      </div>
+    </div>
+  </body>
+</html>
